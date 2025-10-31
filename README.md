@@ -9,21 +9,16 @@ efficiently.
 
 ### ⚙️ Project Overview
 This notebook implements a **vector search system** using Redis Stack
-and text embeddings.\
-The project covers:\
+and text embeddings.
+The project covers:
 - Connecting to Redis Cloud\
-- Creating a **vector index** using RediSearch (HNSW + cosine
-similarity)\
-- Generating and caching embeddings for text documents\
+- Creating a **vector index** using RediSearch
+- Generating and caching embeddings for text documents
 - Performing **semantic queries** using vector similarity (KNN)
 
 Initially, the project used **OpenAI's `text-embedding-3-small`**
-model.\
-However, due to an API quota limit, it was replaced with a **free, local
-model**:\
-`SentenceTransformer('all-MiniLM-L6-v2')`.\
-This version runs entirely in Colab without API keys and outputs
-384-dimensional vectors.
+model however, due to an API quota limit, it was replaced with a **free, local
+model**`SentenceTransformer('all-MiniLM-L6-v2')`.\
 
 ------------------------------------------------------------------------
 

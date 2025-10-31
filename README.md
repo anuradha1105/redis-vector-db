@@ -53,9 +53,9 @@ model**`SentenceTransformer('all-MiniLM-L6-v2')`.
 ------------------------------------------------------------------------
 
 ### 💡 Tools Used
--   **Redis Stack  Redis Cloud**
+-   **Redis Stack / Redis Cloud**
 -   **SentenceTransformers** (all-MiniLM-L6-v2)
--   **Python  Google Colab**
+-   **Python / Google Colab**
 
 ------------------------------------------------------------------------
 
